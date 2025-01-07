@@ -50,7 +50,7 @@ const ReviewSection = () => {
   };
 
   return (
-    <div className="mx-auto p-6 bg-[#DFFFE2] h-auto">
+    <div className="mx-auto p-6 bg-[#DFFFE2] h-auto" id="Reviews">
       <p className="font-bold text-2xl my-8">Happy Users!</p>
       <div className="flex items-center justify-between">
         <button

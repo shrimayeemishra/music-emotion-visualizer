@@ -6,13 +6,29 @@ import TeamCard from "../Components/teamCard";
 
 const Aboutus = ({}) => {
   return (
-    <section className="flex flex-col font-poppin text-[#012A45] px-4 py-8 lg:px-24 lg:py-8 items-center lg:flex-row bg-[#FADADD]">
-      <div className="lg:w-[49%] flex flex-col ml-4">
-        <div className="about-para pl-2 lg:ml-4">
-          <p className="pt-6 pb-4 text-xl md:text-3xl text-[#012A45] font-bold py-4">
+    <section
+      className="flex flex-col font-poppin text-[#012A45] px-4 py-8 items-center bg-[rgb(250,218,221)]
+      lg:px-24 lg:py-8 lg:flex-row"
+      id="Aboutus"
+    >
+      <div
+        className="flex flex-col ml-4
+      lg:w-[49%] "
+      >
+        <div
+          className="about-para pl-2 text-black
+        lg:ml-4"
+        >
+          <p
+            className="pt-6 pb-4 text-xl font-bold py-4
+          md:text-3xl"
+          >
             About Us
           </p>
-          <p className="mr-4 text-lg text-justify font-medium lg:text-xl ">
+          <p
+            className="mr-4 text-lg text-justify font-medium
+          lg:text-xl"
+          >
             EmoMeter is an innovative tool that analyzes the emotional aspects
             of music. By simply uploading an audio file, users can instantly see
             predictions for energy, valence, and tension of the song, along with
@@ -21,16 +37,23 @@ const Aboutus = ({}) => {
             visualization to help users explore the emotional landscape of their
             favorite tracks.
           </p>
-          <p className="mr-4 text-lg text-justify font-medium lg:text-xl">
+          <p
+            className="mr-4 text-lg text-justify font-medium
+          lg:text-xl"
+          >
             EmoMeter is a system developed by a team of final year computer
             engineering student as their final year project.
           </p>
         </div>
       </div>
 
-      <div className="lg:w-1/2 pt-8 pb-8 flex justify-center items-center">
+      <div
+        className="pt-8 pb-8 flex justify-center items-center
+      lg:w-1/2 "
+      >
         <div
-          className="p-4 pt-8 flex flex-col space-y-24 md:flex md:flex-row md:space-y-0 md:p-0 md:space-x-8
+          className="p-4 pt-8 flex flex-col space-y-24
+          md:flex md:flex-row md:space-y-0 md:p-0 md:space-x-8
       lg:flex-col lg:space-y-20"
         >
           <TeamCard

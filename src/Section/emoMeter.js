@@ -5,7 +5,10 @@ import DisplayValue from "../Components/displayvalue";
 
 const EmoMeter = () => {
   return (
-    <div className="emoMeter min-h-screen bg-[#FADADD] flex flex-col font-poppins text-black font-semibold pb-4">
+    <div
+      className="emoMeter min-h-screen bg-[#FADADD] flex flex-col font-poppins text-black font-semibold pb-4"
+      id="EmoMeter"
+    >
       <div className="heading text-center py-8 space-y-2">
         <h1
           className="text-3xl font-bold tracking-wide
