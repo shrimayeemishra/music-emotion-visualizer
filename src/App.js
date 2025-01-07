@@ -1,16 +1,9 @@
 import "./App.css";
-import Navbar from "./Components/navbar";
-import EmoMeter from "./Components/emoMeter";
-
-// function App() {
-//   return (
-//     <div className="App">
-//       <h1>Ganpati Bappa Morya</h1>
-//       <Navbar />
-//       <EmoMeter />
-//     </div>
-//   );
-// }
+import Navbar from "./Section/navbar";
+import EmoMeter from "./Section/emoMeter";
+import Aboutus from "./Section/Aboutsection";
+import ReviewSection from "./Section/reviewSection";
+import Footer from "./Section/footer";
 
 function App() {
   return (
@@ -18,6 +11,9 @@ function App() {
       <h1>Ganpati Bappa Morya</h1>
       <Navbar />
       <EmoMeter />
+      <ReviewSection />
+      <Aboutus />
+      <Footer />
     </div>
   );
 }

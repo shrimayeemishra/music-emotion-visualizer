@@ -1,10 +1,11 @@
 import React from "react";
-import Button from "./button";
-import Plot from "./plot";
+import Button from "../Components/button";
+import Plot from "../Components/plot";
+import DisplayValue from "../Components/displayvalue";
 
 const EmoMeter = () => {
   return (
-    <div className="emoMeter min-h-screen bg-[#FADADD] flex flex-col font-poppins text-black font-semibold">
+    <div className="emoMeter min-h-screen bg-[#FADADD] flex flex-col font-poppins text-black font-semibold pb-4">
       <div className="heading text-center py-8 space-y-2">
         <h1
           className="text-3xl font-bold tracking-wide
@@ -41,6 +42,18 @@ const EmoMeter = () => {
         <div className="md:w-2/3">
           <Plot />
         </div>
+      </div>
+
+      <div
+        className="grid grid-rows-3 grid-cols-2
+      md:grid-rows-2 md:grid-cols-3"
+      >
+        <DisplayValue label="Energy: " />
+        <DisplayValue label="Tension: " />
+        <DisplayValue label="Valence: " />
+        <DisplayValue label="Emotion: " />
+        <DisplayValue label="Intensity: " />
+        <DisplayValue label="Atmosphere: " />
       </div>
     </div>
   );
