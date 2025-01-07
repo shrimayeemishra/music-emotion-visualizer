@@ -33,9 +33,8 @@ const Aboutus = ({}) => {
             of music. By simply uploading an audio file, users can instantly see
             predictions for energy, valence, and tension of the song, along with
             its corresponding emotion. The system uses a trained model to
-            process the audio features and provides an interactive 3D
-            visualization to help users explore the emotional landscape of their
-            favorite tracks.
+            process the audio features and provides a 3D visualization to help
+            users explore the emotional landscape of their favorite tracks.
           </p>
           <p
             className="mr-4 text-lg text-justify font-medium

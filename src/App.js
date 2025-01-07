@@ -8,7 +8,6 @@ import Footer from "./Section/footer";
 function App() {
   return (
     <div className="App min-h-screen">
-      <h1>Ganpati Bappa Morya</h1>
       <Navbar />
       <EmoMeter />
       <ReviewSection />
