@@ -2,34 +2,39 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div
-      className="navbar bg-[#FADADD] flex flex-row justify-around font-poppins text-black text-sm font-semibold
-      xs:text-base
-      md:text-lg md:justify-center
-      lg:text-xl"
-    >
-      <a
-        className="m-4
-      md:mx-6"
-        href="#EmoMeter"
+    <nav className="navbar bg-[#FADADD] sticky top-0 z-50 shadow-sm">
+      <div
+        className="max-w-7xl mx-auto px-4 flex justify-center items-center font-poppins text-black text-xs font-semibold
+        xs:text-sm
+        md:text-lg
+        lg:text-xl"
       >
-        EmoMeter
-      </a>
-      <a
-        className="m-4
-      md:mx-6"
-        href="#Guidelines"
-      >
-        How to use?
-      </a>
-      <a
-        className="m-4
-      md:mx-6"
-        href="#Aboutus"
-      >
-        About us
-      </a>
-    </div>
+        <a
+          className="m-4 hover:opacity-70 transition-opacity duration-200
+          md:mx-8
+          lg:mx-12"
+          href="#EmoMeter"
+        >
+          EmoMeter
+        </a>
+        <a
+          className="m-4 hover:opacity-70 transition-opacity duration-200
+          md:mx-8
+          lg:mx-12"
+          href="#Guidelines"
+        >
+          How to use?
+        </a>
+        <a
+          className="m-4 hover:opacity-70 transition-opacity duration-200
+          md:mx-8
+          lg:mx-12"
+          href="#Aboutus"
+        >
+          About us
+        </a>
+      </div>
+    </nav>
   );
 };
 
